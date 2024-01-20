@@ -1,7 +1,7 @@
 const routes = [
   {
     title: 'Home',
-    path: '/',
+    path: '/home',
     classNames: 'lg:flex',
   },
   {
