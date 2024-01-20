@@ -1,0 +1,42 @@
+.custom-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #fefb01;
+}
+/* Customize navigation buttons */
+.btn-prev,
+.btn-next {
+  position: absolute;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn-prev {
+  left: 36px;
+  margin-top: 100px;
+}
+
+.btn-next {
+  right: 36px;
+  margin-top: 100px;
+}

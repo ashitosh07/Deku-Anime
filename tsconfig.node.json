@@ -4,7 +4,20 @@
     "skipLibCheck": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react"
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "vite.config.ts",
+    "src/**/*.ts",
+    "src/**/*.js",
+    "src/**/*.tsx",
+    "src/pages/Home.jsx",
+    "src/layout/DefaultLayout.jsx",
+    "src/pages/Authentication/SignUp.jsx",
+    "src/pages/Authentication/SignIn.jsx",
+    "src/pages/Chart.jsx",
+    "src/pages/Dashboard/ECommerce.tsx",
+    "src/components/ChatCard.jsx"
+  ]
 }

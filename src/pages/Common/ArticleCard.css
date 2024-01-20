@@ -1,0 +1,73 @@
+.articles-title {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.article-card {
+  display: flex;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.article-image {
+  width: 300px;
+  border-radius: 10px;
+  height: auto;
+  object-fit: cover;
+}
+
+.article-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #25262d;
+}
+
+.article-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.article-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.read-more-button {
+  background-color: #1a222c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.read-more-button:hover {
+  background-color: #1a222c;
+}
+.show-all-button {
+  background-color: #1a222c;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 20px auto; /* Center the button horizontally and provide some spacing */
+  display: block; /* Ensure the button takes up the full width */
+}
+
+.show-all-button:hover {
+  background-color: #1a222c;
+}

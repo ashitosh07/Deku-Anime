@@ -1,0 +1,26 @@
+/* MovieCss.css */
+
+/* Set height for the slider */
+.slick-slider {
+  height: 500px; /* Adjust the height as needed */
+}
+
+/* Style for the individual slides */
+.slick-slide {
+  outline: none; /* Remove outline on click */
+}
+
+/* Style for the dots at the bottom of the carousel */
+.slick-dots {
+  bottom: 20px;
+}
+
+/* Style for the active dot */
+.slick-active button:before {
+  color: white;
+}
+
+/* Add any additional styling based on your design requirements */
+.bg-custom-color {
+  background-color: #c3103d;
+}
